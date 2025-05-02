@@ -5,7 +5,7 @@ import { videoList } from '../data';
 const USER_ID = 'user123';
 
 
-const BACKEND_API = 'http://localhost:8000/api/progress';
+const BACKEND_API = 'https://learning-9mup.onrender.com/api/progress';
 
 export default function VideoPlayer() {
   const [selectedVideo, setSelectedVideo] = useState(videoList[0]);
